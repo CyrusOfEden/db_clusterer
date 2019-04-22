@@ -1,7 +1,6 @@
 module DbClustering
   module Models
     class Point
-
       attr_accessor :cluster, :is_noise, :datasource_point
 
       def initialize(datasource_point:, vector_params: nil)
@@ -40,7 +39,6 @@ module DbClustering
       def is_noise_point?
         self.is_noise && self.cluster.nil?
       end
-
     end
   end
 end

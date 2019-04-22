@@ -22,7 +22,6 @@ module DbClustering
         sum = vector1_array.map.with_index{ |x, i| (x - vector2_array[i]).abs }.reduce(&:+)
         sum / vector1_array.count.to_f
       end
-
     end
   end
 end

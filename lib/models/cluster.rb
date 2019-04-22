@@ -13,7 +13,6 @@ module DbClustering
         @points << point
         point.cluster = self
       end
-
     end
   end
 end

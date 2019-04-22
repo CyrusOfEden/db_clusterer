@@ -1,7 +1,6 @@
 module DbClustering
   module DatasourceAdapters
     class ActiveRecord
-
       def initialize(relation:, vector_params: nil)
         @relation = relation
         @vector_params = vector_params
@@ -31,7 +30,6 @@ module DbClustering
 
         neighbors
       end
-
     end
   end
 end

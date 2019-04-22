@@ -38,7 +38,6 @@ module DbClustering
 
         numerator.to_f / denominator
       end
-
     end
   end
 end

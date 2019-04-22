@@ -26,7 +26,6 @@ module DbClustering
         end
         sqrt sum
       end
-
     end
   end
 end

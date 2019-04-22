@@ -25,7 +25,6 @@ module DbClustering
 
         neighbors
       end
-
     end
   end
 end

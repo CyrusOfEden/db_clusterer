@@ -3,7 +3,6 @@
 module DbClustering
   module Algorithms
     class Dbscan
-
       attr_accessor :datasource, :clusters
 
       def initialize(datasource:, distance_metric:, debug: false)
@@ -71,7 +70,6 @@ module DbClustering
           end
         end
       end
-
     end
   end
 end

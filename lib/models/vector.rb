@@ -24,7 +24,6 @@ module DbClustering
           @array
         end
       end
-
     end
   end
 end
