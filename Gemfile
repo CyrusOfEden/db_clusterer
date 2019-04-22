@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 # Dependencies required to use the gem
-gem 'activerecord', '~> 4.2', '>= 4.2.1'
+gem 'activerecord'
 
 # Dependencies to develop the gem
 group :development do
