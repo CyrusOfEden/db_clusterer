@@ -1,7 +1,6 @@
 module DbClustering
   module DatasourceAdapters
     class InMemory
-
       def initialize(array:, vector_params: nil)
         @vector_params = vector_params
         @array = array.map{ |datasource_point| DbClustering::Models::Point.new(datasource_point: datasource_point, vector_params: @vector_params) }
