@@ -16,12 +16,7 @@ module DbClustering
         else
           vector_object = @datasource_point.clustering_vector
         end
-
-        if vector_object.is_a?(Hash)
-          DbClustering::Models::Vector.new(object: vector_object)
-        else
-          raise "clustering_vector method needs to result to a Hash or an Array object"
-        end
+        DbClustering::Models::Vector.new(object: vector_object)
       end
 
       def visited?

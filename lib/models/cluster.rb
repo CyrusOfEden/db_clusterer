@@ -1,7 +1,6 @@
 module DbClustering
   module Models
     class Cluster
-
       attr_accessor :points, :id
 
       def initialize
