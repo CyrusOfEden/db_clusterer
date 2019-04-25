@@ -1,7 +1,6 @@
 module DbClustering
   module Models
     class Vector
-
       attr_reader :hash
 
       def initialize(object:)

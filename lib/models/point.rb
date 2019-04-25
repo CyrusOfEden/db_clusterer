@@ -16,7 +16,13 @@ module DbClustering
         else
           vector_object = @datasource_point.clustering_vector
         end
-        DbClustering::Models::Vector.new(object: vector_object)
+
+        case vector_object
+        when Array, Hash
+          DbClustering::Models::Vector.new(object: vector_object)
+        else
+          vector_object
+        end
       end
 
       def visited?
