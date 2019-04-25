@@ -21,12 +21,6 @@ require 'distance_metrics/pearson_correlation'
 
 
 #
-# Generators
-#
-require 'generators/datasource/active_record'
-
-
-#
 # Models
 #
 require 'models/cluster'

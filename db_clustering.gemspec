@@ -6,7 +6,7 @@
 
 Gem::Specification.new do |s|
   s.name = "db_clustering"
-  s.version = "0.1.17"
+  s.version = "0.1.18"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
